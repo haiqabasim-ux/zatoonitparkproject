@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ccc;
+
+}
+.contener{
+    max-width: 900px;
+    margin: auto;
+    background-color: aliceblue;
+   
+}
+.header_img{
+    padding-top: 10px;
+    padding-left: 10px;
+    background: linear-gradient(135deg, #d5fcc3, blue);
+}
+header img{
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+/*Hero Section*/
+#hero {
+  padding: 30px 0;
+  background: linear-gradient(135deg, #d5fcc3, blue);
+  border-top: 2px solid green;
+}
+.hero-flex {
+  display: flex;
+  justify-content:space-between;
+  justify-items: center;
+  }
+#hero-text{
+    flex: 0.8;
+    width: 100px;
+}
+#hero-text h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+  margin-left: 20px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+#hero-text p {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+#hero-form{
+    margin-right: 50px;
+    background-color: aliceblue;
+   width: 320px;
+   box-shadow: 4px 3px 5px rgb(1,1,1,0.1) ;
+    border-radius: 10px;
+    
+}
+.login_form{
+    color: rgb(17, 17, 17);
+    border-radius:2px ;
+    padding: 10px;
+ box-shadow: 4px 3px 5px rgb(1,1,1,0.1) ;
+    border-radius: 10px;
+  }
+.apply-box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgb(1,1,1,0.1) ;
+    border-radius: 10px;
+}
+.latter_small{
+font-size: 20px;
+}
+/*.form_contener{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px.1fr));
+    gap: 20px;
+}*/
+.form_control{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column
+  
+
+}
+labil{
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color:  red;
+}
+.button_control{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap:5px
+}
+.button_control
+{
+    background-color: rgb(243, 242, 242);
+    color: rgb(26, 25, 25);
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: transparent solid 2px;
+    transition: 0.3s ease-in;
+}
+.button_control p{
+    padding-bottom: 10px;
+}
+.btn {
+    margin-top: 10px;
+  width: 60%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+ margin-left: 65px;
+}
+.divcenter{
+    align-items: center;
+}
+.divcenter a{
+    color: white;
+}
+.primary {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+}
+.text_control{
+    grid-column: 1 / span 2;
+}
+.text_control textarea{
+    width: 100%;
+}
+.container {
+  display: flex;
+
+}
+.content {
+  padding: 30px;
+  flex: 1;
+     display: flex;
+   flex-direction: row;
+   justify-content: end;
+   gap: 20px;
+   border: 2px solid black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.admin{
+    width: 100%;
+      display: flex;
+   flex-direction: row;
+      
+}
+.admin_dash{
+    width:80%;
+    margin-left: 20px;
+    border: 2px solid yellow;
+
+}
+.admin_dashbord{
+    width: 100%;
+   
+    
+}
+.admin_dashbord h2{
+      box-shadow: 4px 3px 5px rgb(1,1,1,0.1) ;
+    border-radius: 10px;
+}
+.notification{
+     box-shadow: 4px 3px 5px rgb(1,1,1,0.1) ;
+    border-radius: 10px;
+
+}
+    
+.notification h2{
+    background-color: black;
+    color: white;
+
+}
+@media (max-width:460px){
+ .text_control{
+    grid-column: 1 / span 1;
+    
+}   
+}
